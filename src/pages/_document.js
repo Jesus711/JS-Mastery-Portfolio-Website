@@ -1,5 +1,6 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
+import nextConfig from '../../next.config.mjs'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -33,6 +34,7 @@ export default class MyDocument extends Document {
         <Head>
           <title>My Portfolio | Jesus Ruelas-Perez</title>
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          <link rel="shortcut icon" href={`${nextConfig.basePath}/favicon.ico`} />
         </Head>
         <body>
           <Main />
