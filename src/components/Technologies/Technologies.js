@@ -8,7 +8,7 @@ const Technologies = () =>  (
     <SectionDivider />
     <br />
     <SectionTitle style={{lineHeight: "72px"}}>Technologies</SectionTitle>
-    <SectionText>I've worked with a range of Technologies in web development. From BackEnd to Frontend</SectionText>
+    <SectionText>I`&apos;`ve worked with a range of technologies in web development. From Backend to Frontend.</SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />

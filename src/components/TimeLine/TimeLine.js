@@ -53,7 +53,6 @@ const Timeline = () => {
         <>
         {TimeLineData.map((item, index) => (
           <CarouselMobileScrollNode key={index} $final={index === TOTAL_CAROUSEL_COUNT - 1 ? true : false}>
-            {console.log("Mobile Score", index, activeItem)}
             <CarouselItem
               $index={index}
               id={`carousel__item-${item}`}
