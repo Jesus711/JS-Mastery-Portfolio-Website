@@ -30,9 +30,8 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang='en-GB'>
-        <Head>
+        <Head title="My Portfolio | Jesus Ruelas-Perez">
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-          <title>My Portfolio | Jesus Ruelas-Perez</title>
         </Head>
         <body>
           <Main />
