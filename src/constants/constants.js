@@ -1,8 +1,13 @@
+import nextConfig from "../../next.config.mjs";
+
+
+const basePath = nextConfig.basePath;
+
 export const projects = [
   {
     title: 'Spotify Web Project',
     description: "Updated a previous project by improving the process of creating collaborative playlists using the Spotify API, React, JavaScript, HTML and CSS.",
-      image: '/images/1.png',
+      image: `${basePath}/images/1.png`,
       tags: ['React', 'JavaScript', 'Spotify Web API', 'HTML', 'CSS'],
     source: 'https://github.com/Jesus711/Spotify-Web-Project',
     visit: 'https://jesus711.github.io/Spotify-Web-Project/',
@@ -11,7 +16,7 @@ export const projects = [
   {
     title: 'Modern Bank Web Application',
     description: "Created a fully responsive and modern bank web application using React and Tailwind CSS.",
-    image: '/images/2.png',
+    image: `${basePath}/images/2.png`,
     tags: ['React', 'JavaScript', 'TailwindCSS'],
     source: 'https://github.com/Jesus711/Modern-Bank-Application',
     visit: 'https://jesus711.github.io/Modern-Bank-Application/',
@@ -20,7 +25,7 @@ export const projects = [
   {
     title: 'Modern Restaurant Application',
     description: "Created fully responsive and modern website application for a restaurant using React.",
-      image: '/images/3.png',
+      image: `${basePath}/images/3.png`,
       tags: ['React', 'JavaScript'],
     source: 'https://github.com/Jesus711/Modern-Restaurant-Application',
     visit: 'https://jesus711.github.io/Modern-Restaurant-Application/',
@@ -29,7 +34,7 @@ export const projects = [
   {
     title: 'Modern UI/UX Website App',
     description:"Created a fully responsive and modern UI UX Website using React.",
-    image: '/images/4.png',
+    image: `${basePath}/images/4.png`,
     tags: ['React', 'JavaScript'],
     source: 'https://github.com/Jesus711/Modern-UI-UX-Website',
     visit: 'https://jesus711.github.io/Modern-UI-UX-Website/',
